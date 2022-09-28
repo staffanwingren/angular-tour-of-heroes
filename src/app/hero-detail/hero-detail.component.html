@@ -4,6 +4,7 @@
   <div>
     <label for="hero-name">Hero name: </label>
     <input id="hero-name" [(ngModel)]="hero.name" placeholder="name">
+    <button type="button" (click)="save()">Save</button>
   </div>
   <button type="button" class="button" (click)="getBack()">Back</button>
 </div>
